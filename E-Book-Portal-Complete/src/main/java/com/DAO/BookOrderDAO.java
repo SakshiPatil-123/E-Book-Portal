@@ -1,0 +1,1 @@
+package com.DAO; import java.util.*; import com.entity.Book_Order; public interface BookOrderDAO { boolean saveOrder(List<Book_Order> list); List<Book_Order> getBook(String email); List<Book_Order> getAllOrder(); }

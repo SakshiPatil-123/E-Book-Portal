@@ -1,0 +1,5 @@
+package com.entity;
+import java.io.Serializable;
+public class User implements Serializable { private int id; private String name,email,password,phono,address,landmark,city,state,pincode;
+ public User(){} public int getId(){return id;} public void setId(int v){id=v;} public String getName(){return name;} public void setName(String v){name=v;} public String getEmail(){return email;} public void setEmail(String v){email=v;} public String getPassword(){return password;} public void setPassword(String v){password=v;} public String getPhono(){return phono;} public void setPhono(String v){phono=v;} public String getAddress(){return address;} public void setAddress(String v){address=v;} public String getLandmark(){return landmark;} public void setLandmark(String v){landmark=v;} public String getCity(){return city;} public void setCity(String v){city=v;} public String getState(){return state;} public void setState(String v){state=v;} public String getPincode(){return pincode;} public void setPincode(String v){pincode=v;} public String toString(){return "User{"+id+","+email+"}";}
+}

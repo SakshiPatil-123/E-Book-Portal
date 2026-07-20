@@ -1,0 +1,1 @@
+package com.DAO; import com.entity.User; public interface UserDAO { boolean userRegister(User u); User login(String email,String password); boolean checkPassword(int id,String password); boolean updateProfile(User u); boolean checkUser(String email); }

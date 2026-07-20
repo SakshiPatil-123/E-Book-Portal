@@ -1,0 +1,5 @@
+package com.entity;
+import java.io.Serializable;
+public class Book_Order implements Serializable { private int id; private String orderId,userName,email,phno,fulladd,bookName,author,price,paymentType;
+ public int getId(){return id;} public void setId(int v){id=v;} public String getOrderId(){return orderId;} public void setOrderId(String v){orderId=v;} public String getUserName(){return userName;} public void setUserName(String v){userName=v;} public String getEmail(){return email;} public void setEmail(String v){email=v;} public String getPhno(){return phno;} public void setPhno(String v){phno=v;} public String getFulladd(){return fulladd;} public void setFulladd(String v){fulladd=v;} public String getBookName(){return bookName;} public void setBookName(String v){bookName=v;} public String getAuthor(){return author;} public void setAuthor(String v){author=v;} public String getPrice(){return price;} public void setPrice(String v){price=v;} public String getPaymentType(){return paymentType;} public void setPaymentType(String v){paymentType=v;} public String toString(){return orderId;}
+}
